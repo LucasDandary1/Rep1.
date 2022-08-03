@@ -16,6 +16,11 @@ public class GeterSeter {
 		aluno1.setNomeMae("Teonélia Juvenila de Paula");
 		aluno1.setNomepai("Deivison Nelson Ferreira");
 		aluno1.setSerieMatriculado("3 ano do Ensino Médio");
+		aluno1.setNota1(20.9);
+		aluno1.setNota2(59.4);
+		aluno1.setNota3(45.8);
+		aluno1.setNota4(80.9);
+		
 		//===========================================================//
 		System.out.println("Segue abaixo os dados dos seguntes alunos:");
 		System.out.println(" aluno1:");
@@ -40,7 +45,11 @@ public class GeterSeter {
 		aluno2.setNomeMae("Teonélia Juvenila de Paula");
 		aluno2.setNomepai("Decio Avelar");
 		aluno2.setSerieMatriculado("3 ano do Ensino Médio");
-	
+		aluno2.setNota1(23.9);
+		aluno2.setNota2(23.5);
+		aluno2.setNota3(89.9);
+		aluno2.setNota4(67.8);
+		
 		System.out.println(" aluno2:");
 		System.out.println("  NOME = " + aluno2.getNome());
 		System.out.println("  CPF = " + aluno2.getCpf());
@@ -50,7 +59,11 @@ public class GeterSeter {
 		System.out.println("  NOME DO PAI = " + aluno2.getNomepai());
 		System.out.println("  SERIE/MATRICULADO = " + aluno2.getSerieMatriculado());
 		
-
+		System.out.println("=================================================================== ");
+		System.out.println("A Média das notas dos alunos é:");
+		System.out.println("aluno1: " + aluno1.getMediaNota());
+		System.out.println("aluno2: " + aluno2.getMediaNota());
+			
 	}
 
 }
