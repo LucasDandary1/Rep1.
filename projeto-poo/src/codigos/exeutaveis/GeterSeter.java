@@ -62,11 +62,8 @@ public class GeterSeter {
 		
 		System.out.println("=================================================================== ");
 		System.out.println("A Média das notas dos alunos é:");
-		
-		
-		
-		System.out.println("aluno1: " + aluno1.getMediaNota());
-		System.out.println("aluno2: " + aluno2.getMediaNota());
+		System.out.println("aluno 1:" + aluno1.getMediaNota());
+		System.out.println("aluno 2:" + aluno2.getMediaNota());
 		
 			
 	}

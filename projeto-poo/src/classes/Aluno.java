@@ -14,8 +14,6 @@ public class Aluno {
 	public double nota2;
 	public double nota3;
 	public double nota4;
-	public double media;
-	
 
 //===========================================//
 	public void setNome(String nome) {
@@ -113,6 +111,4 @@ public class Aluno {
 		return (nota1 + nota2 + nota3 + nota4) /4;
 		
 	}
-		
-	
 }
