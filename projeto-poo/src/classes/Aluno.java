@@ -111,5 +111,8 @@ public class Aluno {
 // podem ser executados nele e retornar em outros lugares. 
 	public double getMediaNota(){
 		return (nota1 + nota2 + nota3 + nota4) /4;
+		
 	}
+		
+	
 }
