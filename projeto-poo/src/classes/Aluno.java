@@ -103,12 +103,31 @@ public class Aluno {
 	public void setNota4(double nota4) {
 		this.nota4 = nota4;
 	}
-	
+
 // Métdo que retorna a Média do Aluno.
 // Blocos que precisam de dados em que todos estão dentro do objeto
 // podem ser executados nele e retornar em outros lugares. 
-	public double getMediaNota(){
-		return (nota1 + nota2 + nota3 + nota4) /4;
+	public double getMediaNota() {
+		return (nota1 + nota2 + nota3 + nota4) / 4;
+	}
+
+	public boolean getAlunoAprovado() {
+		double media = this.getMediaNota();
+		if (media >= 70) {
+			return true;
+		}else {
+			return false;}
+			}
+	
+	public String getAlunoAprovado2() {
+		
+		double media = this.getMediaNota();
+			if (media >= 70) {
+				return "Aluno está aprovado";
+			}else {
+				return "Aluno está reprovado" ;
+			}
+		}
+		
 		
 	}
-}
