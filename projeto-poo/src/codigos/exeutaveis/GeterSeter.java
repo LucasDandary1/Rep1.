@@ -24,7 +24,7 @@ public class GeterSeter {
 		// ===========================================================//
 		System.out.println("Segue abaixo os dados dos seguntes alunos:");
 		System.out.println(" aluno1:");
-		System.out.println("  NOME = " + aluno1.getNome());
+		System.out.println("  NOME ´3 igual a = " + aluno1.getNome());
 		System.out.println("  CPF = " + aluno1.getCpf());
 		System.out.println("  DATA/NASCIMENTO = " + aluno1.getDataNascimento());
 		System.out.println("  IDADE = " + aluno1.getIdade());
