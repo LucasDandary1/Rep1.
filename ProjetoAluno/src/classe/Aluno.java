@@ -5,7 +5,7 @@ public class Aluno {
 	public String nome;
 
 	public String cpf;
-	public int idade;
+	public String idade;
 	public String dataNascimento;
 	public String nomeMae;
 	public String nomepai;
@@ -24,13 +24,6 @@ public class Aluno {
 		return nome;
 	}
 
-	public int getIdade() {
-		return idade;
-	}
-
-	public void setIdade(int idade) {
-		this.idade = idade;
-	}
 
 	public String getNomeMae() {
 		return nomeMae;
@@ -76,8 +69,8 @@ public class Aluno {
 		return nota1;
 	}
 
-	public void setNota1(double nota1) {
-		this.nota1 = nota1;
+	public void setNota1(double nota2) {
+		this.nota1 = nota2;
 	}
 
 	public double getNota2() {
